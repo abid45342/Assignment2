@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 @font-face {
   font-family: "Miama";
-  src: url("/miama-cufonfonts/Miama-Regular.ttf") format("truetype");
+  src: url("Miama-Regular.ttf") format("truetype");
 }
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&display=swap'); */
 
 * {
   margin: 0;
@@ -115,10 +116,12 @@ nav h3 {
 }
 
 .shape {
-  font-family: "Miama", sans-serif;
+  font-family: miama;
   font-size: 4.53rem;
   font-weight: 100;
   padding: 0;
+ 
+
 }
 .h1-2 {
   margin: -55px auto -80px;
