@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@font-face {
+  font-family: "Miama";
+  src: url("/miama-cufonfonts/Miama-Regular.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+
+
+ 
+
+  
+}
+body {
+    
+   
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+
+  color: white;
+  background-color:white;
+  
+ 
+  
+
+
+
+}
+
+header {
+  height: fit-content;
+  width: 100%;
+ 
+  background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17) 2%,
+    rgb(17, 17, 17) 95%,
+    rgba(119, 119, 119, 0) 100%
+  );
+
+
+
+  
+  
+}
+
+/* nav styles */
+
+nav > ul {
+  display: flex;
+  /* gap: 2.73rem; */
+  gap: 3.31vw;
+  justify-content: center;
+  align-items: center;
+}
+nav > ul > li {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 3.93vw 13.12vw 0vw 13.12vw;
+}
+nav h3 {
+  color: rgb(230, 83, 60);
+  font-size: 2.09rem;
+}
+.home {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  padding: 7.44px 18.6px 7.44px 18.6px;
+  font-weight: 600;
+
+  border-radius: 46px;
+
+  background: rgb(230, 83, 60);
+  margin: 0px 47px;
+}
+
+/* banner styles */
+.banner {
+  display: flex;
+  gap: 11.54vw;
+  
+
+}
+
+.banner-heading {
+  margin-top: 6.73vw;
+  font-weight: 900;
+  margin-left: 13.13vw;
+}
+.banner-heading h1 {
+  font-size: 4.53rem;
+}
+
+.banner-text {
+ 
+
+  font-size: 0.93rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+    margin: 1.93rem 0;
+}  
+
+.banner-img img{
+    width: 100%;
+}
+
+.shape {
+  font-family: "Miama", sans-serif;
+  font-size: 4.53rem;
+  font-weight: 100;
+  padding: 0;
+}
+.h1-2 {
+  margin: -55px auto -80px;
+  padding: 0;
+}
+.download-button {
+  border: 1px solid rgb(255, 255, 255);
+  font-size: 20px;
+  width: 208px;
+  height: 50px;
+  color: white;
+  background-color: black;
+  padding: 14px, 37px, 14px, 37px;
+  border-radius: 39px;
+  margin-left: 0.93rem;
+}
+.orange-ball {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: rgb(230, 83, 60);
+}
+.video-tutorial {
+  top: 500px;
+  left: 670px;
+  position: absolute;
+  width: 191px;
+  height: 89px;
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.workout-videos {
+  top: 250px;
+  left: 1000px;
+  position: absolute;
+  width: 191px;
+  height: 89px;
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Shared Styles */
+.p {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+.banner-img h3 {
+  font-size: 2.325rem;
+}
+.orange-button {
+  font-size: 20px;
+  width: 208px;
+  height: 50px;
+  color: white;
+  background-color: rgb(230, 83, 60);
+  padding: 14px, 37px, 14px, 37px;
+  border-radius: 39px;
+}
+
+
+
+@media  screen and (max-width:576px) {
+    *{
+        font-size: 12px;
+    }
+    header{
+        width: 100%;
+    }
+
+    nav ul{
+        display: none;
+    }
+    .banner{
+        flex-direction: column;
+        text-align: left;
+       padding-left: 20px;
+        
+    }
+    .banner-heading {
+        margin-top: 6.73vw;
+        font-weight: 900;
+        margin-left: 0;
+        
+      }
+    h1{
+        margin: 0;
+        padding: 0;
+    }
+    .workout-videos{
+
+        top: 600px;
+        left: 200px;
+    }
+    .banner-img{
+        text-align: center;
+    }
+    .video-tutorial {
+
+        top: 800px;
+        left: 20px;
+    }
+
+
+    .banner-text{
+        font-size: 16px;
+       
+        
+        
+    }
+
+    
+}
