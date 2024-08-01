@@ -155,7 +155,11 @@ nav h3 {
 
 /* Shared Styles */
 button{
+<<<<<<< HEAD
   border: none;
+=======
+  border:none;
+>>>>>>> 57366f4aad1b02fa2e4187a730aa2bcc3a7cbf6b
 }
 section {
   margin-top: 100px;
