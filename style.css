@@ -154,6 +154,9 @@ nav h3 {
 }
 
 /* Shared Styles */
+button{
+  border: none;
+}
 section {
   margin-top: 100px;
 }
@@ -714,5 +717,8 @@ hr {
     width: 100%-1px;
     padding-left: 20px;
     padding-bottom: 3px;
+  }
+  .footer-info p{
+    margin: 0;
   }
 }
