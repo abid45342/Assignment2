@@ -58,7 +58,7 @@ nav h3 {
   color: rgb(230, 83, 60);
   font-size: 2.09rem;
 }
-*/ .home {
+.home {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,7 +66,7 @@ nav h3 {
   font-weight: 600;
   border-radius: 46px;
   background: rgb(230, 83, 60);
-  margin: 0px 47px;
+  /* margin: 0px 47px; */
 }
 
 /* banner styles */
