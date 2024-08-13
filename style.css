@@ -195,6 +195,9 @@ section {
   border-radius: 39px;
   margin-left: 0.93rem;
 }
+.show{
+  display: none;
+}
 
 /* change-habits styles */
 .change-habits {
@@ -374,8 +377,11 @@ option {
 }
 .trainer-card {
   background: rgba(255, 255, 255, 0.1);
-  width: 967px;
+  width: 962px;
   height: 561px;
+  
+  
+  
   margin: 0 auto;
   padding: 18px;
   border-radius: 18px;
@@ -389,14 +395,17 @@ option {
   position: relative;
   height: 252px;
   width: 303px;
+
   display: flex;
   justify-content: center;
+
 }
 .trainer img {
   position: absolute;
   height: 100%;
   width: 100%;
   border-radius: 18px;
+
 }
 
 .sp {
@@ -684,6 +693,9 @@ hr {
   .br{
     display: none;
   }
+  .show{
+    display: block;
+  }
 
   .bmi-info {
     margin-left: 0;
@@ -718,6 +730,9 @@ hr {
     width: fit-content;
     height: fit-content;
     gap: 20px;
+    justify-content: center;
+
+   
   }
   .non {
     display: none;
