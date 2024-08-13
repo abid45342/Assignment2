@@ -681,6 +681,9 @@ hr {
   .bmi-br{
     display: none;
   }
+  .br{
+    display: none;
+  }
 
   .bmi-info {
     margin-left: 0;
