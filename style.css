@@ -43,9 +43,15 @@ nav > ul {
   gap: 3.31vw;
   justify-content: center;
   align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0;
+  padding-right: 20px;
+  border-radius: 20px;
 }
 nav > ul > li {
   list-style: none;
+ 
+  
 }
 
 nav {
@@ -53,6 +59,7 @@ nav {
   justify-content: space-between;
   gap: 31vw;
   padding: 3.93vw 13.12vw 0vw 13.12vw;
+ 
 }
 nav h3 {
   color: rgb(230, 83, 60);
@@ -234,17 +241,25 @@ section {
 .run {
   display: flex;
   background-color: rgb(34, 34, 34);
-  width: 880px;
-  height: 290px;
-  gap: 153px;
+  
+  width: 67%;
+  height: fit-content;
+  gap: 12%;
   padding: 38px 29px 26px 50px;
   border-radius: 18px;
   margin: 0 auto;
 }
+
+.run-img{
+  margin: auto;
+}
 .run-img img {
+
   height: 290px;
-  width: 340px;
+  width: 100%;
+  /* width: 340px; */
   border-radius: 18px;
+  
 }
 .run h1 {
   font-size: 2.79rem;
@@ -265,6 +280,7 @@ section {
 }
 .bmi-heading h1 {
   margin-bottom: 20px;
+
 }
 
 table {
@@ -293,6 +309,7 @@ th {
 .bmi-info {
   /* margin-left: 175px; */
   margin-top: 48px;
+  margin-left: 20px;
 }
 .bmi-info h3 {
   margin-bottom: 45px;
@@ -660,6 +677,9 @@ hr {
     /* width: 100px; */
     width: 100%;
     padding-left: 40px;
+  }
+  .bmi-br{
+    display: none;
   }
 
   .bmi-info {
